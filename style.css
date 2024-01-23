@@ -1,8 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 html, body {
   height: 100%;
   width: 100%;
   overflow-x: clip;
   background-color: black;
+  font-family: "Open Sans", sans-serif;
+}
+
+#status {
+  color: white;
+}
+
+#AdminBlock {
+  height: 400px;
+  aspect-ratio: 1.3/1;
+  background-color: rgb(145, 153, 239);
+  border-radius: 9%;
+  position: absolute;
+}
+
+.adminBlock {
+  display: flex;
+  justify-content: center;
 }
 
 #MainNav {
